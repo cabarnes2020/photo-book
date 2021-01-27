@@ -24,7 +24,7 @@ module.exports = (sequelize, DataTypes) => {
         len: [3, 256]
       },
     },
-    hashedPassword: {
+    hashPass: {
       type: DataTypes.STRING.BINARY,
       allowNull: false,
       validate: {
@@ -35,12 +35,12 @@ module.exports = (sequelize, DataTypes) => {
     {
       defaultScope: {
         attributes: {
-          exclude: ['hashedPassword', 'email', 'createdAt', 'updatedAt'],
+          exclude: ['hashPass', 'email', 'createdAt', 'updatedAt'],
         },
       },
       scopes: {
         currentUser: {
-          attributes: { exclude: ['hashedPassword'] },
+          attributes: { exclude: ['hashPass'] },
         },
         loginUser: {
           attributes: {},
@@ -49,12 +49,12 @@ module.exports = (sequelize, DataTypes) => {
     });
 
   User.prototype.toSafeObject = function () { // remember, this cannot be an arrow function
-    const { id, username, email } = this; // context will be the User instance
-    return { id, username, email };
+    const { id, userName, email } = this; // context will be the User instance
+    return { id, userName, email };
   };
 
   User.prototype.validatePassword = function (password) {
-    return bcrypt.compareSync(password, this.hashedPassword.toString());
+    return bcrypt.compareSync(password, this.hashPass.toString());
   };
 
   User.getCurrentUserById = async function (id) {
@@ -66,7 +66,7 @@ module.exports = (sequelize, DataTypes) => {
     const user = await User.scope('loginUser').findOne({
       where: {
         [Op.or]: {
-          username: credential,
+          userName: credential,
           email: credential,
         },
       },
@@ -76,12 +76,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
 
-  User.signup = async function ({ username, email, password }) {
-    const hashedPassword = bcrypt.hashSync(password);
+  User.signup = async function ({ userName, email, password }) {
+    const hashPass = bcrypt.hashSync(password);
     const user = await User.create({
-      username,
+      userName,
       email,
-      hashedPassword,
+      hashPass,
     });
     return await User.scope('currentUser').findByPk(user.id);
   };
