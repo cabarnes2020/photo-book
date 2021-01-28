@@ -16,6 +16,7 @@ module.exports = {
       name: 'Harold ',
       address1: 'Dallas',
       address2: '',
+      avgRating: 3,
       photoType: 'landscape', 
       createdAt: new Date(),
       updatedAt: new Date()
@@ -24,6 +25,7 @@ module.exports = {
       name: 'Sheila ',
       address1: 'New York',
       address2: '',
+      avgRating: 4,
       photoType: 'portrait',
       createdAt: new Date(),
       updatedAt: new Date()
@@ -32,6 +34,7 @@ module.exports = {
       name: 'Kevin ',
       address1: 'Boston',
       address2: '',
+      avgRating: 2,
       photoType: 'sports',
       createdAt: new Date(),
       updatedAt: new Date()
@@ -40,6 +43,7 @@ module.exports = {
       name: 'Denise',
       address1: 'Los Angeles',
       address2: '',
+      avgRating: 5,
       photoType: 'sports',
       createdAt: new Date(),
       updatedAt: new Date()
@@ -48,6 +52,7 @@ module.exports = {
       name: 'Christion',
       address1: 'Chicago',
       address2: '',
+      avgRating: 5,
       photoType: 'portrait',
       createdAt: new Date(),
       updatedAt: new Date()
@@ -56,6 +61,7 @@ module.exports = {
       name: 'Jori',
       address1: 'Washington D.C.',
       address2: '',
+      avgRating: 5,
       photoType: 'wedding',
       createdAt: new Date(),
       updatedAt: new Date()
@@ -64,6 +70,7 @@ module.exports = {
       name: 'George',
       address1: 'Las Vegas',
       address2: '',
+      avgRating: 4,
       photoType: 'wedding',
       createdAt: new Date(),
       updatedAt: new Date()
@@ -72,6 +79,7 @@ module.exports = {
       name: 'Ashli',
       address1: 'Los Angeles',
       address2: '',
+      avgRating: 4,
       photoType: 'concert',
       createdAt: new Date(),
       updatedAt: new Date()
@@ -80,6 +88,7 @@ module.exports = {
       name: 'Jeremy',
       address1: 'Phoenix',
       address2: '',
+      avgRating: 3,
       photoType: 'landscape',
       createdAt: new Date(),
       updatedAt: new Date()
@@ -88,6 +97,7 @@ module.exports = {
       name: 'Dazja',
       address1: 'Atlanta',
       address2: '',
+      avgRating: 2,
       photoType: 'concert',
       createdAt: new Date(),
       updatedAt: new Date()

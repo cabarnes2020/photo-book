@@ -8,6 +8,15 @@ router.get('/', asyncHandler(async (req, res) => {
     res.json({photographers})  //used to send the data BACK to the front end.
 }))
 
+router.get('/best', asyncHandler(async (req, res) => {
+    const photographers = await Photographer.findAll({
+        where: {
+            
+        }
+    })
+    res.json({ photographers })  //used to send the data BACK to the front end.
+}))
+
 
 
 

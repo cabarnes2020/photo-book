@@ -20,6 +20,10 @@ module.exports = {
         allowNull: true,
         type: Sequelize.STRING
       },
+      avgRating: {
+        allowNull: true,
+        type: Sequelize.INTEGER
+      },
       photoType: {
         allowNull: false,
         type: Sequelize.STRING
