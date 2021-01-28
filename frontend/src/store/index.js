@@ -1,10 +1,13 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
+import photographerReducer from "./photographers";
 import sessionReducer from './session';
+
 
 const rootReducer = combineReducers({
   // add reducer functions here
   session: sessionReducer,
+  photographers: photographerReducer
 });
 
 let enhancer;
