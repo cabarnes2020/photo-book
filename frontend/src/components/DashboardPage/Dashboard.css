@@ -1,0 +1,60 @@
+
+.dashboard-title {
+    display: flex;
+    justify-content: center;
+    color: rgba(72, 156, 230, 1);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.card-area{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: rgba(72, 156, 230, .2);
+    box-shadow: 10px 5px 5px black;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.photographer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.top-rated-image {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    overflow: hidden;
+}
+
+.top-rated-image img {
+    object-fit: contain;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.hover {
+    transition: all .2s ease-in-out;
+}
+
+.hover:hover {
+    transform: scale(1.05);
+}
