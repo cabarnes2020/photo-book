@@ -25,18 +25,27 @@
     border-radius: 20px;
     background-color: rgba(72, 156, 230, .2);
     box-shadow: 10px 5px 5px black;
-    margin: 20px;
+    margin: 10px;
     justify-content: center;
     align-items: center;
     color: black;
     font-family: 'Yantramanav', sans-serif;
+    text-decoration: none;
+    
 }
 
 .photographer-info {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 10px;
+}
 
+.photographer-info h2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 .top-rated-image {

@@ -1,0 +1,15 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 1px;
+    width: 100%;
+    height: fit-content;
+    background-color:rgba(72, 156, 230, 0.4);
+}
+
+.nav-button {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

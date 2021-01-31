@@ -64,9 +64,11 @@ const DashboardPage = () => {
                     finalPhotographer && finalPhotographer.map((photographer) => {
                         return (
                             <div className='card-area'>
-                                <a className='card hover' href='/'>
+                                <a className='card hover' href={`/photographers/${photographer.id}`}>
                                     <div className='photographer-info'>
-                                        <h3>{photographer.name} shoots {photographer.photoType}</h3>
+                                        <h2>Photographer: {photographer.name},</h2>
+                                        <h2>Expertise: {photographer.photoType},</h2>
+                                        <h2>Location: {photographer.address1}</h2>
                                     </div>
                                     <div className='top-rated-image'>
                                         <img src={photographer.imageUrl} alt=''></img>

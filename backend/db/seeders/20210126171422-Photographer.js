@@ -17,7 +17,7 @@ module.exports = {
       address1: 'Dallas',
       address2: '',
       avgRating: 3,
-      photoType: 'landscape', 
+      photoType: 'Landscape', 
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -26,7 +26,7 @@ module.exports = {
       address1: 'New York',
       address2: '',
       avgRating: 4,
-      photoType: 'portrait',
+      photoType: 'Portrait',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -35,7 +35,7 @@ module.exports = {
       address1: 'Boston',
       address2: '',
       avgRating: 2,
-      photoType: 'sports',
+      photoType: 'Sports',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -44,7 +44,7 @@ module.exports = {
       address1: 'Los Angeles',
       address2: '',
       avgRating: 5,
-      photoType: 'sports',
+      photoType: 'Sports',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -53,7 +53,7 @@ module.exports = {
       address1: 'Chicago',
       address2: '',
       avgRating: 5,
-      photoType: 'portrait',
+      photoType: 'Portraits',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -62,7 +62,7 @@ module.exports = {
       address1: 'Washington D.C.',
       address2: '',
       avgRating: 5,
-      photoType: 'wedding',
+      photoType: 'Weddings',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -71,7 +71,7 @@ module.exports = {
       address1: 'Las Vegas',
       address2: '',
       avgRating: 4,
-      photoType: 'wedding',
+      photoType: 'Weddings',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -80,7 +80,7 @@ module.exports = {
       address1: 'Los Angeles',
       address2: '',
       avgRating: 4,
-      photoType: 'concert',
+      photoType: 'Concerts',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -89,7 +89,7 @@ module.exports = {
       address1: 'Phoenix',
       address2: '',
       avgRating: 3,
-      photoType: 'landscape',
+      photoType: 'Landscapes',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -98,7 +98,7 @@ module.exports = {
       address1: 'Atlanta',
       address2: '',
       avgRating: 2,
-      photoType: 'concert',
+      photoType: 'Concerts',
       createdAt: new Date(),
       updatedAt: new Date()
     },

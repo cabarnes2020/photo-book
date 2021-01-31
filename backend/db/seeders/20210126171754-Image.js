@@ -96,8 +96,201 @@ module.exports = {
       updatedAt: new Date()
     },
 
-   
-     
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/IMG_1751.JPEG',
+      photographerId: 1,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/IMG_0015.JPG',
+      photographerId: 1,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/IMG_1823.JPG',
+      photographerId: 1,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/IMG_1836.JPG',
+      photographerId: 1,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/IMG_1751.JPEG',
+      photographerId: 9,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/IMG_0015.JPG',
+      photographerId: 9,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/IMG_1823.JPG',
+      photographerId: 9,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/IMG_1836.JPG',
+      photographerId: 9,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/baseball-pic.jpg',
+      photographerId: 3,
+      createdAt: new Date(),
+      updatedAt: new Date() 
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/college-football-pic.jpeg',
+      photographerId: 3,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/football-pic.jpg',
+      photographerId: 3,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/girl-basketball.jpg',
+      photographerId: 3,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/women-soccer-pic.jpg',
+      photographerId: 3,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/baseball-pic.jpg',
+      photographerId: 4,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/college-football-pic.jpeg',
+      photographerId: 4,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/football-pic.jpg',
+      photographerId: 4,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/girl-basketball.jpg',
+      photographerId: 4,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/women-soccer-pic.jpg',
+      photographerId: 4,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/black-wedding.jpg',
+      photographerId: 6,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/banff-wedding.jpg',
+      photographerId: 6,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/bridesmaids.jpg',
+      photographerId: 6,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/shore-wedding.jpeg',
+      photographerId: 6,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/vintage-car-wedding.jpg',
+      photographerId: 6,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/black-wedding.jpg',
+      photographerId: 7,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/banff-wedding.jpg',
+      photographerId: 7,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/bridesmaids.jpg',
+      photographerId: 7,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/shore-wedding.jpeg',
+      photographerId: 7,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+
+    {
+      imageUrl: 'https://photo-book-images.s3.us-east-2.amazonaws.com/vintage-car-wedding.jpg',
+      photographerId: 7,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
    ], {});
 
   },
